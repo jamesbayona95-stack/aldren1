@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #dfe7eb;
+    color: #17252d;
+    overflow: hidden;
+}
+.resume {
+    width: 100vw;
+    height: 100vh;
+    background: #e8eef1;
+    overflow: hidden;
+    padding: 25px 48px;
+}
+.header {
+    height: 245px;
+    background: #e8eef1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 25px 25px 35px 0;
+    overflow: hidden;
+    border-bottom: 2px solid #66747b;
+}
+.header-left {
+    width: 72%;
+    padding-top: 5px;
+}
+.header-left h1 {
+    font-size: 76px;
+    line-height: .88;
+    font-weight: 900;
+    letter-spacing: -3px;
+    color: #101f26;
+    margin-bottom: 25px;
+}
+.header-contact {
+    font-size: 15px;
+    line-height: 1.45;
+    color: #26363e;
+}
+.header-contact p {
+    margin-bottom: 3px;
+}
+.header-photo {
+    width: 255px;
+    height: 245px;
+    margin-right: 20px;
+}
+.header-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-content {
+    height: calc(100vh - 280px);
+    padding-top: 20px;
+    overflow: hidden;
+}
+.full-section {
+    border-bottom: 2px solid #66747b;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+}
+.full-section h2,
+.section h2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    color: #17262d;
+    margin-bottom: 8px;
+}
+.full-section p {
+    font-size: 15px;
+    line-height: 1.45;
+    color: #26363d;
+}
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px;
+}
+.column {
+    min-width: 0;
+}
+.section {
+    border-bottom: 2px solid #66747b;
+    padding-bottom: 13px;
+    margin-bottom: 13px;
+}
+.section:last-child {
+    margin-bottom: 0;
+}
+
+.section h2 {
+    margin-bottom: 9px;
+}
+.education h3 {
+    font-size: 15px;
+    line-height: 1.35;
+    margin-bottom: 3px;
+    color: #26363d;
+}
+.education p {
+    font-size: 14px;
+    line-height: 1.35;
+    color: #3b484f;
+    margin-bottom: 2px;
+}
+.section ul {
+    padding-left: 21px;
+}
+.section li {
+    font-size: 14px;
+    line-height: 1.45;
+    color: #34434a;
+    margin-bottom: 2px;
+}
+.work {
+    margin-bottom: 10px;
+}
+.work h3 {
+    font-size: 15px;
+    line-height: 1.35;
+    color: #26363d;
+    margin-bottom: 2px;
+}
+.responsibilities h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #26363d;
+}
+.responsibilities ul {
+    padding-left: 21px;
+}
+.responsibilities li {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 3px;
+}
+.certification {
+    font-size: 14px;
+    line-height: 1.4;
+}
+.reference p {
+    font-size: 14px;
+    line-height: 1.45;
+    margin-bottom: 4px;
+    color: #34434a;
+}
+.reference strong {
+    font-weight: 700;
+    color: #26363d;
+}
+
+/*BIG SCREEN*/
+@media (min-width: 1500px) {
+
+    .resume {
+        padding: 28px 48px;
+    }
+
+    .header {
+        height: 260px;
+    }
+
+    .header-left h1 {
+        font-size: 80px;
+    }
+
+    .header-contact {
+        font-size: 16px;
+    }
+
+    .header-photo {
+        width: 265px;
+        height: 225px;
+    }
+
+    .main-content {
+        height: calc(100vh - 288px);
+    }
+
+    .full-section h2,
+    .section h2 {
+        font-size: 19px;
+    }
+
+    .full-section p {
+        font-size: 16px;
+    }
+
+    .section li,
+    .education p,
+    .reference p {
+        font-size: 15px;
+    }
+
+    .education h3,
+    .work h3,
+    .responsibilities h3 {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
